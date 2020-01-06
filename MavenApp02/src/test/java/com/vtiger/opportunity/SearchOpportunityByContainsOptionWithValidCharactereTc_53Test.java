@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.poi.EncryptedDocumentException;
+//import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +37,7 @@ import com.vtiger.pageObjectRepo1.Opportunity;
 public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test extends BaseClass {
 	
 	@Test
-	public void SearchOpportunityByContainsOptionWithValidCharacterTc_53() throws EncryptedDocumentException, FileNotFoundException, IOException, InterruptedException {
+	public void SearchOpportunityByContainsOptionWithValidCharacterTc_53() throws  FileNotFoundException, IOException, InterruptedException {
 		
 		/*PAGE LOAD WAIT*/
 		/*webDriverCommonUtil1.waitForPageToLoad();*/
@@ -72,6 +72,8 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		System.out.println("********Organisation Name: "+orname);
 		
 		Reporter.log("Opportunity character name entered in textbox",true);
+		Reporter.log("Opportunity character name entered in textbox");
+
 
 		/*click on search now button*/							
 		/*opportunity=PageFactory.initElements(dr, Opportunity.class);*/

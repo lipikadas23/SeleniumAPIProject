@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.EncryptedDocumentException;
+//import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
