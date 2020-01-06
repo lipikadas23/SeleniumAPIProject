@@ -100,7 +100,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		
 		
 		Reporter.log("Search button clicked succesfully..");
-		Reporter.log("Search button clicked succesfully..");
+		
 		
 		
 	}
