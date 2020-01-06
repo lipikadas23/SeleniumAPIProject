@@ -71,7 +71,8 @@ public class SearchOpportunityByContainsOptionWithValidNameTc_48Test extends Bas
 		soft.assertEquals(opportunity.getFailureMsg(), opportunity.orgName, "'"+method_Name+"' *Test Case Failed..");*/
 		soft.assertEquals(opportunity.getMessage(), "ShowingRecords");		
 		soft.assertAll();
-
+		
+		Reporter.log("====================================================");
    	    /* logout and close browser.*/
 
 	}	
