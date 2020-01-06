@@ -78,12 +78,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		Reporter.log("Opportunity character name entered in textbox",true);
 		Reporter.log("Opportunity character name entered in textbox");
 		Reporter.log("Opportunity character name entered in textbox=======");
-		Reporter.log("Opportunity character name entered in textbox=======");
-
-//=======
-		///////////////////////////
-		//Reporter.log("Opportunity character name entered in textbox");
-//>>>>>>> branch 'master' of https://github.com/jagdalemanoj7/MavenApp01.git
+	
 
 		/*click on search now button*/							
 		/*opportunity=PageFactory.initElements(dr, Opportunity.class);*/
