@@ -82,7 +82,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		webDriverCommonUtil1.waitForPageToLoad();
 		
 		Reporter.log("Search button clicked succesfully..",true);
-		
+		System.out.println("Search button clicked succesfully..");
 		
 		/*String method_Name = SearchOpportunityByContainsOptionWithValidCharactereTc_53.class.getName();
 		soft.assertEquals(opportunity.getFailureMsg(), msg, "'"+method_Name+"'Test Case Failed..");*/
