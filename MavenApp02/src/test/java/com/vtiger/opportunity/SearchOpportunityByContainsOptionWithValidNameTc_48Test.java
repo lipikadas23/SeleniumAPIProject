@@ -40,13 +40,13 @@ public class SearchOpportunityByContainsOptionWithValidNameTc_48Test extends Bas
 		String msg = "Marvel Corp";
 
 		/* Login into application using url		
-		 login to CRM with valid data*/
+		 login to CRM with valid data*///
 		
         /* navigate to opportunity & click.*/
 		home.opportunity();
 		Reporter.log("Navigated to opportunity & clicked successfully.. ",true);
 
-	    /*  click in go to advance search icon.*/
+	    /*  click in go to advance search icon.*///
 		home.advanceSearch();
 		Reporter.log("Clicked on advance search icon succesfully..",true);
 
