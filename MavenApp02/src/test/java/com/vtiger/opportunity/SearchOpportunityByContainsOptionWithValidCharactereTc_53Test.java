@@ -73,8 +73,8 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		/*enter any valid character name of opportunity related to into text box.*/		
 		String orname=opportunity.enterOrganisationName(9);
 		System.out.println("********Organisation Name: "+orname);
-		
-		Reporter.log("Opportunity character name entered in textbox",true);
+		///////////////////////////
+		Reporter.log("Opportunity character name entered in textbox");
 
 		/*click on search now button*/							
 		/*opportunity=PageFactory.initElements(dr, Opportunity.class);*/
