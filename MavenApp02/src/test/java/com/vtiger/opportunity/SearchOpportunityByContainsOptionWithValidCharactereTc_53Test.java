@@ -74,6 +74,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		Reporter.log("Opportunity character name entered in textbox",true);
 		Reporter.log("Opportunity character name entered in textbox");
 		Reporter.log("Opportunity character name entered in textbox=======");
+		Reporter.log("Opportunity character name entered in textbox=======");
 
 
 		/*click on search now button*/							
