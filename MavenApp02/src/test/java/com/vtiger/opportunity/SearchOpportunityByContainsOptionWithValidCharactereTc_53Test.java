@@ -99,7 +99,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		soft.assertAll();
 		
 		
-		
+		Reporter.log("Search button clicked succesfully..");
 		
 		
 	}
