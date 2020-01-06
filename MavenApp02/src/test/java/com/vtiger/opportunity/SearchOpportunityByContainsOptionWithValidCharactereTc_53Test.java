@@ -73,17 +73,12 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		/*enter any valid character name of opportunity related to into text box.*/		
 		String orname=opportunity.enterOrganisationName(9);
 		System.out.println("********Organisation Name: "+orname);
-//<<<<<<< HEAD
+
 		
 		Reporter.log("Opportunity character name entered in textbox",true);
 		Reporter.log("Opportunity character name entered in textbox");
 		Reporter.log("Opportunity character name entered in textbox=======");
-		Reporter.log("Opportunity character name entered in textbox=======");
-
-//=======
-		///////////////////////////
-		//Reporter.log("Opportunity character name entered in textbox");
-//>>>>>>> branch 'master' of https://github.com/jagdalemanoj7/MavenApp01.git
+	
 
 		/*click on search now button*/							
 		/*opportunity=PageFactory.initElements(dr, Opportunity.class);*/
@@ -91,7 +86,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		webDriverCommonUtil1.waitForPageToLoad();
 		
 		Reporter.log("Search button clicked succesfully..",true);
-		
+		System.out.println("Search button clicked succesfully..");
 		
 		/*String method_Name = SearchOpportunityByContainsOptionWithValidCharactereTc_53.class.getName();
 		soft.assertEquals(opportunity.getFailureMsg(), msg, "'"+method_Name+"'Test Case Failed..");*/
