@@ -3,7 +3,7 @@ package com.vtiger.opportunity;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import org.apache.poi.EncryptedDocumentException;
+//import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -31,7 +31,7 @@ public class SearchOpportunityByContainsOptionWithValidNameTc_48Test extends Bas
 	 * 		
 	 */
 	@Test
-	public void SearchOpportunityByContainsOptionWithValidNameTc_48() throws InterruptedException, EncryptedDocumentException, FileNotFoundException, IOException {
+	public void SearchOpportunityByContainsOptionWithValidNameTc_48() throws InterruptedException, FileNotFoundException, IOException {
 		
 		Opportunity opportunity = new Opportunity(dr);
 				/*PageFactory.initElements(dr, Opportunity.class);*/
@@ -71,7 +71,9 @@ public class SearchOpportunityByContainsOptionWithValidNameTc_48Test extends Bas
 		soft.assertEquals(opportunity.getFailureMsg(), opportunity.orgName, "'"+method_Name+"' *Test Case Failed..");*/
 		soft.assertEquals(opportunity.getMessage(), "ShowingRecords");		
 		soft.assertAll();
-
+		
+		Reporter.log("====================================================");
+		Reporter.log("====================================================");
    	    /* logout and close browser.*/
 
 	}	

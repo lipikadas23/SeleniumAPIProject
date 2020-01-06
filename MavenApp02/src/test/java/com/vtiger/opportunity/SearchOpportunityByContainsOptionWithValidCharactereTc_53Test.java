@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.poi.EncryptedDocumentException;
+//import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -40,7 +40,7 @@ import com.vtiger.pageObjectRepo1.Opportunity;
 public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test extends BaseClass {
 	
 	@Test
-	public void SearchOpportunityByContainsOptionWithValidCharacterTc_53() throws EncryptedDocumentException, FileNotFoundException, IOException, InterruptedException {
+	public void SearchOpportunityByContainsOptionWithValidCharacterTc_53() throws  FileNotFoundException, IOException, InterruptedException {
 		
 		/*PAGE LOAD WAIT*/
 		/*webDriverCommonUtil1.waitForPageToLoad();*/
@@ -73,8 +73,17 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		/*enter any valid character name of opportunity related to into text box.*/		
 		String orname=opportunity.enterOrganisationName(9);
 		System.out.println("********Organisation Name: "+orname);
+//<<<<<<< HEAD
 		
 		Reporter.log("Opportunity character name entered in textbox",true);
+		Reporter.log("Opportunity character name entered in textbox");
+		Reporter.log("Opportunity character name entered in textbox=======");
+		Reporter.log("Opportunity character name entered in textbox=======");
+
+//=======
+		///////////////////////////
+		//Reporter.log("Opportunity character name entered in textbox");
+//>>>>>>> branch 'master' of https://github.com/jagdalemanoj7/MavenApp01.git
 
 		/*click on search now button*/							
 		/*opportunity=PageFactory.initElements(dr, Opportunity.class);*/
@@ -90,7 +99,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		soft.assertAll();
 		
 		
-		
+		Reporter.log("Search button clicked succesfully..");
 		
 		
 	}
