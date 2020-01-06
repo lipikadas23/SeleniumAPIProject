@@ -46,7 +46,7 @@ public class SearchOpportunityByContainsOptionWithValidNameTc_48Test extends Bas
 		home.opportunity();
 		Reporter.log("Navigated to opportunity & clicked successfully.. ",true);
 
-	    /*  click in go to advance search icon.*///
+	    /*  click in go to advance search icon.*//////
 		home.advanceSearch();
 		Reporter.log("Clicked on advance search icon succesfully..",true);
 
