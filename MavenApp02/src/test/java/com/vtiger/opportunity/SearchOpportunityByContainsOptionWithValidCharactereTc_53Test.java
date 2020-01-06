@@ -3,7 +3,10 @@ package com.vtiger.opportunity;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.util.Iterator;
+import java.util.List;
 import java.util.NoSuchElementException;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 //import org.apache.poi.EncryptedDocumentException;
@@ -70,17 +73,23 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		/*enter any valid character name of opportunity related to into text box.*/		
 		String orname=opportunity.enterOrganisationName(9);
 		System.out.println("********Organisation Name: "+orname);
+//<<<<<<< HEAD
 		
 		Reporter.log("Opportunity character name entered in textbox",true);
 		Reporter.log("Opportunity character name entered in textbox");
 		Reporter.log("Opportunity character name entered in textbox=======");
 		Reporter.log("Opportunity character name entered in textbox=======");
 
+//=======
+		///////////////////////////
+		//Reporter.log("Opportunity character name entered in textbox");
+//>>>>>>> branch 'master' of https://github.com/jagdalemanoj7/MavenApp01.git
 
 		/*click on search now button*/							
 		/*opportunity=PageFactory.initElements(dr, Opportunity.class);*/
 		opportunity.clickOnSearchBtn();
-		Thread.sleep(5000);					//////////////////////////////////
+		webDriverCommonUtil1.waitForPageToLoad();
+		
 		Reporter.log("Search button clicked succesfully..",true);
 		
 		
@@ -89,10 +98,16 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		soft.assertEquals(opportunity.getMessage(), "ShowingRecords");
 		soft.assertAll();
 		
+		
+		
+		
+		
+	}
+		
 		/*logout and close browser.*/
 				
 	}
-}
+
 
 /*System.out.println("***************************************************************************************************");System.out.println("MESSAGE FROM METHOD ::::: "+Opportunity.getFailureMsg());System.out.println("MESSAGE FROM DATA MEMBER-----    "+msg);System.out.println("***************************************************************************************************");*/
 /*String searchby = FileLib.getExcelData("Sheet1", 9, 2);WebElement name = dr.findElement(By.id("fcol0"));Select s1=new Select(name);s1.selectByVisibleText(searchby);*/
