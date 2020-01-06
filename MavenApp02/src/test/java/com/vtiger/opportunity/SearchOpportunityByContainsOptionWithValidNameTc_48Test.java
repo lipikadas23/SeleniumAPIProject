@@ -72,7 +72,7 @@ public class SearchOpportunityByContainsOptionWithValidNameTc_48Test extends Bas
 		soft.assertEquals(opportunity.getMessage(), "ShowingRecords");		
 		soft.assertAll();
 		
-		Reporter.log("====================================================");
+		Reporter.log("===========================================================");
 		Reporter.log("====================================================");
    	    /* logout and close browser.*/
 
