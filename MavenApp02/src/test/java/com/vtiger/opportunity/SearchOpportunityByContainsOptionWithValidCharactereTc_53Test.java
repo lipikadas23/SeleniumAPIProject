@@ -77,6 +77,7 @@ public class SearchOpportunityByContainsOptionWithValidCharactereTc_53Test exten
 		/*opportunity=PageFactory.initElements(dr, Opportunity.class);*/
 		opportunity.clickOnSearchBtn();
 		webDriverCommonUtil1.waitForPageToLoad();
+		System.out.println("search btn clicked");
 		Reporter.log("Search button clicked succesfully..",true);
 		
 		
